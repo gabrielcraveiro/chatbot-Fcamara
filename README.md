@@ -1,4 +1,4 @@
-# Conversation Sample Application [![Build Status](https://travis-ci.org/watson-developer-cloud/conversation-simple.svg?branch=master)](http://travis-ci.org/watson-developer-cloud/conversation-simple) [![codecov.io](https://codecov.io/github/watson-developer-cloud/conversation-simple/coverage.svg?branch=master)](https://codecov.io/github/watson-developer-cloud/conversation-simple?branch=master)
+# Bot de conversação simples para o processo de formação da empresa FCamara
 
 #### Desenvolvido por:
 
@@ -8,7 +8,7 @@
 
 Essa aplicação simula utilizando o watson, uma conversa com um possível chat da empresa FCamara. 
 
-![Demo](readme_images/demo.gif)
+![DEMO](readme_images/demo.gif)
 
 Você pode conferir uma [demo](https://fcamaraformacao.mybluemix.net) app.
 
@@ -27,13 +27,13 @@ Você pode conferir uma [demo](https://fcamaraformacao.mybluemix.net) app.
 ## Como o app funciona
 
 A interface do aplicativo foi treinada para servir como um exemplo de bot da empresa FCamara. A interface permite que o usuario digite um texto e receba uma resposta do bot. Na parte direita do programa é apresentada as informações de como o app recebe e identifica a informação.
-Suas perguntas e comandos são executados com dados pre-treinados como por exemplo:
+Suas perguntas e comandos são executados com dados pré-treinados como por exemplo:
 
 * `quais são os valores da fcamara`
 * `ola`
 * `culture code`
 
-Essas intenções ajudam o programa a entender as variações de questões e comandos que você possa escrever. Poe exemplo, se você digitar Qual é o culture code da FCamara? o programa vai entender sua intenção.
+Essas intenções ajudam o programa a entender as variações de questões e comandos que você possa escrever. Porf exemplo, se você digitar Qual é o culture code da FCamara? o programa vai entender sua intenção.
 
 # Começando com o bluemix
 
@@ -72,7 +72,7 @@ Para dar build:
 
 2 Git clone o projeto `https://github.com/gabrielcraveiro/chatbot-Fcamara`
 
-3 Vara para a pagina do projeto
+3 Va para a pagina do projeto
 
 4 Conecte ao bluemix com o prompt de comando:
 
@@ -103,23 +103,23 @@ Para dar build:
  $ cf push <application-name>
 
  ```
- O nome que você escolher determinara o url que ficara o programa. Exemplo: `<application-name>.mybluemix.net`.
+ O nome que você escolher determinará a url que ficará o programa. Exemplo: `<application-name>.mybluemix.net`.
 
 # <a name="workspace"></a> Importe a workspace
 
-1 Você precisa importar a workspace do nosso app. Para fazer isso vá até a dashboard do bluemix e selecione a instancia de serviço de conecção (Conversation service instance). Depoi selecione **Service Credentials**
+1 Você precisa importar a workspace do nosso app. Para fazer isso vá até a dashboard do bluemix e selecione a instância de serviço de conexão (Conversation service instance). Depois selecione **Service Credentials**
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![](readme_images/credentials.png)
 
-2 Selecione **ADD CREDENTIALS**. De um nome para a sua credencial e selecione **ADD**.
+2 Selecione **ADD CREDENTIALS**. Dê um nome para a sua credencial e selecione **ADD**.
 
 3 Volte para o **Manage** menu e selecione **Launch Tooling**. Isso vai abrir uma nova tab no seu browser onde ele vai pedir para você colocar suas credenciais da BlueMix.
 
 4 Baixe o [exported JSON file](https://github.com/gabrielcraveiro/chatbot-Fcamara/blob/master/training/formacao.json) que contém o conteúdo da workspace.
 
-5 Selecione **Import**. Navegue até o arquivo JSON que você baixou  e clique duas vezes. Escolha para importar **Everything(Intents, Entities, and Dialog)**. E então selecione **Import** para finalalizar a importação do workspace.
+5 Selecione **Import**. Navegue até o arquivo JSON que você baixou e clique duas vezes. Escolha para importar **Everything(Intents, Entities, and Dialog)**. E então selecione **Import** para finalalizar a importação do workspace.
 
-6 De um refresh no seu browser. Uma nova workspace vai ter sido criada em tooling. Selecione o botão de _menu_ dentro do quadrado do workspace, e então selecione **View details**:
+6 Dê um refresh no seu browser. Uma nova workspace vai ter sido criada em tooling. Selecione o botão de _menu_ dentro do quadrado do workspace, e então selecione **View details**:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![Workpsace Details](readme_images/details.PNG)
 
