@@ -1,5 +1,11 @@
 # Conversation Sample Application [![Build Status](https://travis-ci.org/watson-developer-cloud/conversation-simple.svg?branch=master)](http://travis-ci.org/watson-developer-cloud/conversation-simple) [![codecov.io](https://codecov.io/github/watson-developer-cloud/conversation-simple/coverage.svg?branch=master)](https://codecov.io/github/watson-developer-cloud/conversation-simple?branch=master)
 
+#### Desenvolvido por:
+
+* [Gabriel Craveiro](https://github.com/gabrielcraveiro)
+* [Mateus Vilione](https://github.com/mateusvilione)
+* [Raquel Vilione](https://github.com/raquelvilione)
+
 Essa aplicação simula utilizando o watson, uma conversa com um possível chat da empresa FCamara. 
 
 ![Demo](readme_images/demo.gif)
@@ -11,8 +17,8 @@ Você pode conferir uma [demo](https://fcamaraformacao.mybluemix.net) app.
 * Crie uma conta da Bluemix
     * [Registrar](https://console.ng.bluemix.net/registration/?target=/catalog/%3fcategory=watson) na Bluemix, ou você pode logar utilizando uma conta ja existente. Não se esqueça de conferir se você possui espaço para criação de novos apps.
 * Tenha certeza que você possui os seguintes requisitos instalados:
-    * O [Node.js](https://nodejs.org/#download) runtime, que já vem com o [npm][npm_link] node package manager
-    * E o terminal da [Cloud Foundry][cloud_foundry]
+    * O [Node.js](https://nodejs.org/#download) runtime, que já vem com o node package manager
+    * E o terminal da [Cloud Foundry](https://www.cloudfoundry.org/)
 
       Nota: confira se sua versão está atualizada.
 
