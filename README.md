@@ -186,7 +186,6 @@ $ cf logs < application-name > --recent
 # README baseado nos seguintes tutoriais:
 
 * https://github.com/watson-developer-cloud/car-dashboard
-* https://github.com/watson-developer-cloud/conversation-simple
 * https://www.ibm.com/blogs/watson/2016/12/build-chat-bot/
 * https://medium.com/as-m%C3%A1quinas-que-pensam/criando-chat-bots-no-facebook-com-o-ibm-watson-parte-2-a-integra%C3%A7%C3%A3o-c12ba2af7e8a
 
