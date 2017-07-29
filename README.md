@@ -115,7 +115,7 @@ Para dar build:
 
 3 Volte para o **Manage** menu e selecione **Launch Tooling**. Isso vai abrir uma nova tab no seu browser onde ele vai pedir para você colocar suas credenciais da BlueMix.
 
-4 Baixe o [exported JSON file](https://github.com/gabrielcraveiro/chatbot-Fcamara/blob/master/training/formacao.json) que contém o conteúdo da workspace.
+4 Baixe o [exported JSON file](https://github.com/gabrielcraveiro/chatbot-Fcamara/blob/master/training/car-dashboard.json) que contém o conteúdo da workspace.
 
 5 Selecione **Import**. Navegue até o arquivo JSON que você baixou e clique duas vezes. Escolha para importar **Everything(Intents, Entities, and Dialog)**. E então selecione **Import** para finalalizar a importação do workspace.
 
